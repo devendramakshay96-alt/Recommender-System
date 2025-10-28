@@ -1,2 +1,5 @@
-# Recommender-System
-addresses the challenge of recommending relevant movies to users based on movie metadata and tags. The data consists of descriptions, tags, and features for each movie, necessitating the use of text vectorization and similarity measures for personalized recommendations.
+This research project presents the development of a Movie Recommendation System using content-based filtering techniques. The system analyzes movie metadata from the TMDB 5000 Movies dataset to provide personalized movie recommendations based on content similarity. The project implements natural language processing techniques including text vectorization using CountVectorizer and cosine similarity measures to identify movies with similar characteristics. 
+
+The system extracts key features such as genres, keywords, cast, crew, and overview from movie data, processes them using stemming and text preprocessing techniques, and builds a recommendation engine that suggests five similar movies based on user selection. A user-friendly web interface was developed using Streamlit framework in Python, allowing users to interactively select movies and receive instant recommendations along with movie posters fetched from The Movie Database API.
+
+The project successfully demonstrates how machine learning and NLP techniques can be applied to build practical recommendation systems that enhance user experience in content discovery platforms. The system achieved accurate recommendations by considering multiple content features and calculating similarity scores between movies
